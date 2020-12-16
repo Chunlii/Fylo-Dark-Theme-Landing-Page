@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+}
+
+header{
+    background-color:#1c2431;;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px;
+}
+.logo{
+    width: 100px;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header ul>li{
+    font-size: 14px;
+    margin: 10px;
+    opacity: .7;
+}
+.introduction{
+    text-align: center;
+    background-color: #1c2431;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./images/bg-curvy-desktop.svg");
+    background-position: bottom;
+    background-size: 100% 270px;
+}
+.introduction img{
+    width: 300px;
+}
+.introduction h2{
+    margin: 20px;
+}
+.introduction p{
+    font-size: 12px;
+    opacity: .7;
+    width: 60%;
+    margin: auto;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    margin: 20px;
+    outline: none;
+    padding: 10px 35px;
+}
+
+button:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+
+.perks>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.perks>div>section{
+    margin: 30px;
+}
+.perks-section img{
+    margin: 15px;
+    width: 40px;
+}
+.perks-section-2 img{
+    height: 42px;
+}
+.perks-section h4{
+    font-size: 14px;
+    opacity: .7;
+}
+.perks-section p{
+    font-size: 12px;
+    opacity: .7;
+}
+.stay-productive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+.stay-productive img{
+    width: 350px;
+}
+.stay-productive section{
+    margin-left: 50px;
+    width: 50%;
+}
+.stay-productive p{
+    font-size: 12px;
+    margin: 10px 0px;
+    opacity: .7;
+}
+.stay-productive a{
+    color: hsl(176, 68%, 64%);
+    font-size: 12px;
+    opacity: .7;
+}
+.quote{
+    margin-bottom: -90px;
+    margin-left: 35px;
+    width: 25px;
+}
+.testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+    padding: 30px;
+}
+.testimonials img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+.testimonials section{
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 20px ;
+}
+.testimonials section>p{
+    font-size: 12px;
+    margin: 10px 0px;
+    opacity: .7;
+}
+.testimonials-img-sectn{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.testimonials-img-sectn p{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.early-access-box{
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 5px;
+    padding: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: -60px;
+    z-index: 1;
+}
+.early-access-box p{
+    font-size: 11px;
+    opacity: .7;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+}
+input{
+    border-radius: 30px;
+    border: none;
+    font-size: 10px;
+    height: 4vh;
+    padding-left: 20px;
+    outline: none;
+    width: 65%;
+    
+}
+.early-access-box button{
+    font-size: 9px;
+    width: 35%;
+    padding: 12px 15px;
+}
+.button-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 30px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: -1;
+}
+footer .logo{
+    margin-top: 60px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-left{
+    display: flex;
+    width: 50%;
+}
+
+.flex{
+    display: flex;
+    margin: 10px;
+    margin-left: 0px;
+}
+.flex img{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+.flex p{
+    font-size: 11px;
+    width: 90%;
+}
+.bottom-right{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.bottom-about-us{
+    display: flex;
+    font-size: 12px;
+    margin: 0px auto;
+}
+.bottom-about-us ul{
+    list-style-type: none;
+    font-size: 11px;
+    margin-right: 50px;
+}
+.bottom-about-us li{
+    padding: 5px;
+}
+.bottom-social-media{
+    display: flex;
+}
+.bottom-social-media i{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.facebook{
+    width: 28px;
+    height: 28px;
+    padding: 15px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+@media screen and (max-width: 750px){
+    header{
+        padding: 30px 15px;
+    }
+    header ul>li{
+        font-size: 12px;
+    }
+    .introduction img{
+        width: 200px;
+    }
+    .perks div{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+    .perks>div>section{
+        margin: 20px 0px;
+    }
+    .stay-productive{
+        display: flex;
+        flex-direction: column;
+    }
+    .stay-productive section{
+        text-align: left;
+        margin: 0;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .quote{
+        margin-bottom: -75px;
+        margin-left: 25px;
+        width: 25px;
+    }
+    .testimonials{
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+    }
+    .early-access-box{
+        padding: 15px;
+        width: 90%;
+    }
+    .early-access-box p{
+        width: 100%;
+    }
+    .button-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .button-flex input{
+        width: 90%;
+    }
+    .button-flex button{
+        margin: 10px;
+        width: 90%;
+    }
+    footer{
+        padding: 15px;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bottom-left{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .bottom-right{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .bottom-about-us{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px;
+    }
+    .contact-us{
+        margin-top: 15px;
+    }
+    .bottom-social-media{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .bottom-social-media i{
+        margin: 3px;
+    }
+}
